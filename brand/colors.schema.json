@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://open-ucsh.github.io/.github/brand/colors.schema.json",
+  "title": "UCSH Open Source color tokens",
+  "type": "object",
+  "required": ["brand", "surface", "text", "link", "status"],
+  "properties": {
+    "brand": { "$ref": "#/$defs/colorGroup" },
+    "surface": { "$ref": "#/$defs/colorGroup" },
+    "text": { "$ref": "#/$defs/colorGroup" },
+    "link": { "$ref": "#/$defs/colorGroup" },
+    "status": {
+      "type": "object",
+      "additionalProperties": { "$ref": "#/$defs/colorGroup" }
+    }
+  },
+  "$defs": {
+    "colorGroup": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "pattern": "^#[0-9A-Fa-f]{6}$"
+      }
+    }
+  }
+}

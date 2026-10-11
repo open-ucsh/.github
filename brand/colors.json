@@ -1,0 +1,46 @@
+{
+  "$schema": "./colors.schema.json",
+  "brand": {
+    "primary": "#004574",
+    "primaryHover": "#005B98",
+    "accent": "#F2C100"
+  },
+  "surface": {
+    "background": "#FFFFFF",
+    "default": "#F7F8FA",
+    "hover": "#EDF2F7",
+    "border": "#D7DEE7"
+  },
+  "text": {
+    "default": "#17324D",
+    "muted": "#6B7280",
+    "onPrimary": "#FFFFFF",
+    "onAccent": "#17324D"
+  },
+  "link": {
+    "default": "#004574",
+    "hover": "#005B98"
+  },
+  "status": {
+    "success": {
+      "background": "#E8F5E9",
+      "border": "#2E7D32",
+      "text": "#1B5E20"
+    },
+    "warning": {
+      "background": "#FFF8E1",
+      "border": "#F2C100",
+      "text": "#795500"
+    },
+    "error": {
+      "background": "#FDECEC",
+      "border": "#C62828",
+      "text": "#8E0000"
+    },
+    "info": {
+      "background": "#EAF4FB",
+      "border": "#1976A8",
+      "text": "#0D4F71"
+    }
+  }
+}

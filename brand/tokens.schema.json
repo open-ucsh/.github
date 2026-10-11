@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://open-ucsh.github.io/.github/brand/tokens.schema.json",
+  "title": "UCSH Open Source design tokens",
+  "type": "object",
+  "required": ["typography", "radius", "shadow"],
+  "properties": {
+    "typography": { "type": "object" },
+    "radius": {
+      "type": "object",
+      "additionalProperties": { "type": "string" }
+    },
+    "shadow": {
+      "type": "object",
+      "additionalProperties": { "type": "string" }
+    }
+  }
+}
