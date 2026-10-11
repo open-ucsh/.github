@@ -2,6 +2,7 @@
 <img src="/assets/banner.jpeg" alt="UCSH Banner" width="100%">
 
 ## 🎓 UCSH Open Source
+
 </div>
 
 Esta organización reúne proyectos y recursos creados por estudiantes de la **Universidad Católica Silva Henríquez**.
