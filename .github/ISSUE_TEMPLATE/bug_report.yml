@@ -1,0 +1,42 @@
+name: Reporte de error
+description: Informa un problema reproducible en un proyecto.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por ayudar a mejorar el proyecto. No incluyas credenciales,
+        datos personales ni información sensible.
+  - type: textarea
+    id: description
+    attributes:
+      label: Descripción
+      description: Explica claramente el problema observado.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Pasos para reproducir
+      description: Indica los pasos mínimos para observar el problema.
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Comportamiento esperado
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Entorno
+      description: Incluye sistema operativo, versión y navegador o runtime.
+    validations:
+      required: true

@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Reportar una vulnerabilidad
+    url: https://github.com/open-ucsh/.github/security/policy
+    about: Consulta la política de seguridad antes de publicar detalles.
